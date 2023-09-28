@@ -32,5 +32,14 @@ public class Hello {
         if (!isCar) {
             System.out.println("This is not supposed to happen");
         }
+
+        var makeOfCar = "Volkswagen";
+        var isDomestic = makeOfCar == "Volkswagen" ? false : true;
+        if (isDomestic) {
+            System.out.println("This is domestic to our country");
+        }
+        var s = isDomestic ? "This car is domestic" : "This car isn't domestic";
+
+        System.out.println(s);
     }
 }

@@ -7,5 +7,16 @@ public class Hello {
             System.out.println("It's not an alien");
             System.out.println("And I'm scared of aliens");
         }
+
+        var topScore = 80;
+
+        if (topScore < 100){
+            System.out.println("You got the high score!");
+        }
+
+        var secondTopScore = 81;
+        if (topScore > secondTopScore && topScore < 100) {
+            System.out.println("Greater than second top Score and less than 100");
+        }
     }
 }

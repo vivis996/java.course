@@ -41,5 +41,17 @@ public class Hello {
         var s = isDomestic ? "This car is domestic" : "This car isn't domestic";
 
         System.out.println(s);
+
+        var myFirstValue = 20d;
+        var mySecondValue = 80d;
+        var myValuesTotal = (myFirstValue + mySecondValue) * 100d;
+        System.out.println("myValuesTotal = " + myValuesTotal);
+        var theRemainder = myValuesTotal % 40d;
+        System.out.println("theRemainder = " + theRemainder);
+        var isNoRemainder = theRemainder == 0;
+        System.out.println("isNoRemainder = " + isNoRemainder);
+        if (!isNoRemainder) {
+            System.out.println("Got some reminder");
+        }
     }
 }
